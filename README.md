@@ -462,7 +462,7 @@ Thanks for RTFM. ☺️
 | Field | Value |
 |---|---|
 | Package | kettle-fwd |
-| Description | 💎 TODO: Write a longer description or delete this line. |
+| Description | This initial release is a package scaffold for a future Kettle family component. It currently exposes no runtime behavior; functionality will arrive in a later release. |
 | Homepage | https://github.com/kettle-dev/kettle-fwd |
 | Source | https://github.com/kettle-dev/kettle-fwd |
 | License | `MIT` |
