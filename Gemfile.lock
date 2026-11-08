@@ -141,7 +141,7 @@ GEM
       openssl (>= 2.2.1)
       strscan (>= 3.1.2)
     io-console (0.9.5)
-    irb (1.18.0)
+    irb (1.19.0)
       pp (>= 0.6.0)
       prism (>= 1.3.0)
       rdoc (>= 4.0.0)
@@ -269,7 +269,17 @@ GEM
       docopt_ng (~> 0.7.1)
       reline (~> 0.6)
     mutex_m (0.3.0)
+    nokogiri (1.19.7-aarch64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.19.7-aarch64-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.19.7-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.19.7-x86_64-darwin)
+      racc (~> 1.4)
     nokogiri (1.19.7-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.19.7-x86_64-linux-musl)
       racc (~> 1.4)
     nomono (1.1.18)
       version_gem (~> 1.1, >= 1.1.17)
@@ -517,6 +527,12 @@ GEM
       parslet (~> 2.0)
       tree_sitter_language_pack (>= 1.17.0, < 2.0)
       version_gem (~> 1.1, >= 1.1.15)
+    tree_sitter_language_pack (1.25.0-aarch64-linux)
+      sorbet-runtime (~> 0.6)
+    tree_sitter_language_pack (1.25.0-arm64-darwin)
+      sorbet-runtime (~> 0.6)
+    tree_sitter_language_pack (1.25.0-x86_64-darwin)
+      sorbet-runtime (~> 0.6)
     tree_sitter_language_pack (1.25.0-x86_64-linux)
       sorbet-runtime (~> 0.6)
     tsort (0.2.0)
@@ -566,7 +582,13 @@ GEM
     zeitwerk (2.8.3)
 
 PLATFORMS
-  x86_64-linux
+  aarch64-linux
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm64-darwin
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
   addressable (>= 2.9.2, < 3)
@@ -667,7 +689,7 @@ CHECKSUMS
   gitmoji-regex (2.0.15) sha256=c6571bffd757f95c06d84a7d2d0b3f180eca7fe576882c371cee1f1a081cd968
   hexapdf (1.11.2) sha256=c69ea394cc1c4b291ee17cbf2707956ad975948db4f9cf7b9d9d3bfca87b5f1c
   io-console (0.9.5) sha256=83dd9bbf4c4680416629245b39cd4212eb5f4d9a4ea91804870c1f6b846414d5
-  irb (1.18.0) sha256=de9454a0703a54704b9811a5ef31a60c86949fbf4013fcf244fabc7c775248e3
+  irb (1.19.0) sha256=55ee56acbdd6c9fe06a2e6909f46a24e5c41f45f16906bab04e8049cf46f1d27
   json (3.1.0) sha256=3ce7ccf8fde58960177a3a756c31f292a4c1e1dedee884547096a5b0604e3bd8
   json-merge (7.1.16) sha256=ac02a11e2d2e066b18d32b1eb4d10df17cb9044c7b40c5c896fee446087a6f08
   kettle-changelog (1.0.16) sha256=b84320131e11346f7fcbe52ac81bf89ae94afa6b71d34a27c0f85041535149ae
@@ -692,7 +714,12 @@ CHECKSUMS
   markly-merge (7.1.16) sha256=05c93856453a293b3da1f944d4a3b14bdba50857c6c603f164f3b3bb4b339c5f
   mister_bin (0.9.0) sha256=624fe401db4faf1978e84c17e0b320827697a13a6cba4fe656001269079be7d3
   mutex_m (0.3.0) sha256=cfcb04ac16b69c4813777022fdceda24e9f798e48092a2b817eb4c0a782b0751
+  nokogiri (1.19.7-aarch64-linux-gnu) sha256=8f5e15d299602456406e1f03a9f3456cceb33a0722811e818d2ee2214eb4c84a
+  nokogiri (1.19.7-aarch64-linux-musl) sha256=efe0c3602e6e54521bc21c681930ce5568e2d11203de17400710b2b3ca2e4cb4
+  nokogiri (1.19.7-arm64-darwin) sha256=f27d7f25f4873fbc3aa35a2cc2fb680c98555fec1925348da439d0869d541142
+  nokogiri (1.19.7-x86_64-darwin) sha256=508e81e8c5f84aaa240dce981bf1c43faae60808726f0ce7024ee92effc5cafe
   nokogiri (1.19.7-x86_64-linux-gnu) sha256=25865ccb462f714e712fdf8906fde07849cb6704a808e3d629d75baa5af5dd3b
+  nokogiri (1.19.7-x86_64-linux-musl) sha256=464d1f3dfb0d53cf54c0c6a7e23e8e91cf68ec3cafc2b27dc4a7682f2d9bf546
   nomono (1.1.18) sha256=e685e9519143bebabfbcbca3cb32dfbe377a33a3118347240516eb300e4c7385
   openssl (4.0.2) sha256=1037ad2868ae58df9ad917891c0c0f9815a1172f6846d4bcdd508e4c2ee747c2
   ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
@@ -777,6 +804,9 @@ CHECKSUMS
   toml-merge (7.1.16) sha256=fa8d15cc30ffe4300d73b4922ca3d080d8bed3b3f24b062b98139b2e7e9b9dc6
   toml-rb (4.2.2) sha256=b41cf36117bafab84c72017697ab49fe49a065e2bcfa6dffb704389fb7b0a60a
   tree_haver (7.1.16) sha256=b7ee095cd70a8efbeea0579ebca45bb41af69c897d5d75765dab3d963681b1cb
+  tree_sitter_language_pack (1.25.0-aarch64-linux) sha256=f8bcbf3bdd78ec0c1c90abacfc8ea02d879cbfc92f2493aa68ef5e66f3bfafaf
+  tree_sitter_language_pack (1.25.0-arm64-darwin) sha256=621bd1890939c8536556b1b960ae3998fd86ba0f9d90981915ac138b96edd2cf
+  tree_sitter_language_pack (1.25.0-x86_64-darwin) sha256=8a89f23bfd2fd85db50e7e04015dd0a5461ca18ef2f912ae9042f28e7ce7c02b
   tree_sitter_language_pack (1.25.0-x86_64-linux) sha256=43c46682ecec1093dfbfeefea18859bf56a13ad011b3915d0d70cdfb3ac439ea
   tsort (0.2.0) sha256=9650a793f6859a43b6641671278f79cfead60ac714148aabe4e3f0060480089f
   tty-cursor (0.7.1) sha256=79534185e6a777888d88628b14b6a1fdf5154a603f285f80b1753e1908e0bf48
