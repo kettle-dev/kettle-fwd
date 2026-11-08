@@ -20,6 +20,25 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Added
 
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [0.1.0] - 2026-11-07
+
+- TAG: [v0.1.0][0.1.0t]
+- COVERAGE: 100.00% -- 12/12 lines in 2 files
+- BRANCH COVERAGE: 0.00% -- 0/0 branches in 2 files
+- 50.00% documented
+
+### Added
+
 - Initial scaffold-only placeholder release for the kettle-fwd gem; runtime behavior is planned for a future release.
 
 - kettle-jem-template-20260720-005 - README Support & Community links now
@@ -62,10 +81,6 @@ Please file a bug if you notice a violation of semantic versioning.
 - [kc] kettle-jem/prepare: updated 4 project files:
   - dependencies (4)
 
-### Deprecated
-
-### Removed
-
 ### Fixed
 
 - kettle-jem-template-20260720-003 - StructuredMerge Git diff driver config now
@@ -104,6 +119,6 @@ Please file a bug if you notice a violation of semantic versioning.
 - kettle-jem-template-20260802-001 - Devcontainer JSON files now merge as JSONC,
   preserving comments and trailing commas during template updates.
 
-### Security
-
-[Unreleased]: https://github.com/kettle-dev/kettle-fwd/compare/HEAD
+[Unreleased]: https://github.com/kettle-dev/kettle-fwd/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/kettle-dev/kettle-fwd/compare/24e708352eaf0700ffd935040340b7d7c3d6f1a9...v0.1.0
+[0.1.0t]: https://github.com/kettle-dev/kettle-fwd/releases/tag/v0.1.0
