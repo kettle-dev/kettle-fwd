@@ -20,6 +20,8 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Added
 
+- Initial scaffold-only placeholder release for the kettle-fwd gem; runtime behavior is planned for a future release.
+
 - kettle-jem-template-20260720-005 - README Support & Community links now
   include RubyForum.
 - kettle-jem-template-20260726-001 - Projects now include YARD lint
@@ -101,4 +103,4 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Security
 
-[Unreleased]: https://gitlab.com/TODO: Put your gem's public repo URL here./-/compare/HEAD
+[Unreleased]: https://github.com/kettle-dev/kettle-fwd/compare/HEAD
