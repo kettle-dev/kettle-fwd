@@ -22,6 +22,23 @@ Please file a bug if you notice a violation of semantic versioning.
 
 ### Changed
 
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+## [0.1.1] - 2026-11-27
+
+- TAG: [v0.1.1][0.1.1t]
+- COVERAGE: 100.00% -- 12/12 lines in 2 files
+- BRANCH COVERAGE: 0.00% -- 0/0 branches in 2 files
+- 50.00% documented
+
+### Changed
+
 - [kc] kettle-jem/prepare: updated 15 project files since the last release:
   - dependencies (15)
 
@@ -31,14 +48,6 @@ Please file a bug if you notice a violation of semantic versioning.
   - documentation (1)
   - other (3)
   - workflows (2)
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
 
 ## [0.1.0] - 2026-11-07
 
@@ -129,6 +138,8 @@ Please file a bug if you notice a violation of semantic versioning.
 - kettle-jem-template-20260802-001 - Devcontainer JSON files now merge as JSONC,
   preserving comments and trailing commas during template updates.
 
-[Unreleased]: https://github.com/kettle-dev/kettle-fwd/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/kettle-dev/kettle-fwd/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/kettle-dev/kettle-fwd/compare/v0.1.0...v0.1.1
+[0.1.1t]: https://github.com/kettle-dev/kettle-fwd/releases/tag/v0.1.1
 [0.1.0]: https://github.com/kettle-dev/kettle-fwd/compare/24e708352eaf0700ffd935040340b7d7c3d6f1a9...v0.1.0
 [0.1.0t]: https://github.com/kettle-dev/kettle-fwd/releases/tag/v0.1.0
